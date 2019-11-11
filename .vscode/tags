@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	../VMBsite/settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	../VMBsite/settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:88
+AppConfig	../home/apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	../VMBsite/settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	../VMBsite/settings.py	/^DATABASES = {$/;"	kind:variable	line:77
+DEBUG	../VMBsite/settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HomeConfig	../home/apps.py	/^class HomeConfig(AppConfig):$/;"	kind:class	line:4
+HttpResponse	../home/views.py	/^from django.shortcuts import render, HttpResponse$/;"	kind:namespace	line:1
+INSTALLED_APPS	../VMBsite/settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	../VMBsite/settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:107
+MIDDLEWARE	../VMBsite/settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:43
+ROOT_URLCONF	../VMBsite/settings.py	/^ROOT_URLCONF = 'VMBsite.urls'$/;"	kind:variable	line:53
+SECRET_KEY	../VMBsite/settings.py	/^SECRET_KEY = '^@0nc#7_bdw#@9(b@hp@@*t$yy6eod-19npl%f=oa(vzmc&f3='$/;"	kind:variable	line:23
+STATIC_URL	../VMBsite/settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:121
+TEMPLATES	../VMBsite/settings.py	/^TEMPLATES = [$/;"	kind:variable	line:55
+TIME_ZONE	../VMBsite/settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:109
+TestCase	../home/tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	../VMBsite/settings.py	/^USE_I18N = True$/;"	kind:variable	line:111
+USE_L10N	../VMBsite/settings.py	/^USE_L10N = True$/;"	kind:variable	line:113
+USE_TZ	../VMBsite/settings.py	/^USE_TZ = True$/;"	kind:variable	line:115
+WSGI_APPLICATION	../VMBsite/settings.py	/^WSGI_APPLICATION = 'VMBsite.wsgi.application'$/;"	kind:variable	line:71
+__init__.py	../VMBsite/__init__.py	1;"	kind:file	line:1
+__init__.py	../home/__init__.py	1;"	kind:file	line:1
+__init__.py	../home/migrations/__init__.py	1;"	kind:file	line:1
+admin	../VMBsite/urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:16
+admin	../home/admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin.py	../home/admin.py	1;"	kind:file	line:1
+application	../VMBsite/wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	../home/apps.py	1;"	kind:file	line:1
+django-admin.py	../VMBenv/bin/django-admin.py	1;"	kind:file	line:1
+execute_from_command_line	../manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:10
+get_wsgi_application	../VMBsite/wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	../VMBsite/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+include	../home/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:1
+index	../home/views.py	/^def index(request):$/;"	kind:function	line:4
+main	../manage.py	/^def main():$/;"	kind:function	line:7
+manage.py	../manage.py	1;"	kind:file	line:1
+management	../VMBenv/bin/django-admin.py	/^from django.core import management$/;"	kind:namespace	line:2
+models	../home/models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	../home/models.py	1;"	kind:file	line:1
+name	../home/apps.py	/^    name = 'home'$/;"	kind:variable	line:5
+os	../VMBsite/settings.py	/^import os$/;"	kind:namespace	line:13
+os	../VMBsite/wsgi.py	/^import os$/;"	kind:namespace	line:10
+os	../manage.py	/^import os$/;"	kind:namespace	line:3
+path	../VMBsite/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:17
+path	../home/urls.py	/^from django.urls import path, include$/;"	kind:namespace	line:1
+render	../home/views.py	/^from django.shortcuts import render, HttpResponse$/;"	kind:namespace	line:1
+settings.py	../VMBsite/settings.py	1;"	kind:file	line:1
+sys	../manage.py	/^import sys$/;"	kind:namespace	line:4
+tests.py	../home/tests.py	1;"	kind:file	line:1
+urlpatterns	../VMBsite/urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	../home/urls.py	/^urlpatterns = [$/;"	kind:variable	line:4
+urls.py	../VMBsite/urls.py	1;"	kind:file	line:1
+urls.py	../home/urls.py	1;"	kind:file	line:1
+views	../home/urls.py	/^from . import views$/;"	kind:namespace	line:2
+views.py	../home/views.py	1;"	kind:file	line:1
+wsgi.py	../VMBsite/wsgi.py	1;"	kind:file	line:1

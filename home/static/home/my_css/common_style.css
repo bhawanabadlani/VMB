@@ -1,0 +1,35 @@
+html
+{
+    height: 638px;
+    border: solid;
+
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    background-color: rgb(243, 243, 150);
+
+}
+body
+{
+    background-size: cover;
+}
+body .header h1{
+    font-family: Verdana;
+    color: rgb(5, 119, 5);
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    font-weight: bolder;    
+
+}
+body .content p{
+    text-align: justify;
+    /* margin: 15px; */
+    padding: 30px;
+}

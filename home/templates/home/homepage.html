@@ -1,0 +1,121 @@
+{% extends "home/header.html" %}
+{% block content %}
+<header>     
+    {% load staticfiles %}
+    <br>
+    <h1>Vaisnava Marriage Bureau</h1>   
+    
+</header>
+<div class="dropdown">
+        <a data-toggle="dropdown" class="dropdown-toggle">
+            Dropdown
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+        </ul>
+    </div>
+
+    <div class='row'>
+
+    
+        <div class="col-sm-2">
+                <br>
+        
+                <br>
+                <!-- Great, til you resize. -->
+                <!--<div class="well bs-sidebar affix" id="sidebar" style="background-color:#fff">-->
+                <!-- <div class="well bs-sidebar" id="sidebar" style="background-color:bisque"> -->
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" class="dropdown-toggle" style=margin-left:16px;>
+                            Home
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Mission</a></li>
+                            <li><a href="#">Our Vision</a></li>
+                            <li><a href="#">Our Objectives</a></li>
+                            <li><a href="#">About the Process</a></li>
+                            <li><a href="#">How can you help us</a></li>
+                        </ul>
+                    </div>
+                    
+                    <br>
+                    <br>    
+                    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" style=margin-left:16px;>
+                        Register<span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Male Registrations</a>
+                            <a href="#">Female Registrations</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <a class="dropdown-toggle" data-toggle="dropdown" style=margin-left:16px;>
+                        Contact Us<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown menu">
+                        <li>
+                            <a href="#">For Information</a>
+                            <a href="#">For Complaints</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <a class="dropdown-toggle" data-toggle="dropdown" style=margin-left:16px;>
+                        Location<span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#">Postal Address</a>
+                            <a href="#">On the Map</a>
+
+                        </li>
+
+                    </ul:class>
+                    
+               
+                </div> <!--well bs-sidebar affix-->
+        </div>
+        <br>
+        <br>
+        <div class='col-lg-2'>
+            
+        </div>
+        <div class="col-lg- 8 container">
+            <br><br>
+            <form action="" method="">
+                <label for="name">first name</label>
+                <input type="text" name="name" id="name" placeholder="name"> 
+                <br>
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" placeholder="password">
+                <br>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="email">
+                <br>
+                <input type="submit" value="submit please">
+                <!-- <button type="submit" >submit</button>  -->
+                <br>
+                <p>Please Select Your Gender</p>
+                <input type="radio" name="gender" id="" value="male">Male
+                <input type="radio" name="gender" id="" value="male">Female
+            </form>
+        </div>         
+    </div> 
+    <div class="dropdown">
+            <a data-toggle="dropdown" class="dropdown-toggle">
+                Dropdown
+                <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action 1</a></li>
+                <li><a href="#">Action 2</a></li>
+                <li><a href="#">Action 3</a></li>
+            </ul>
+        </div>
+
+{% endblock %}
