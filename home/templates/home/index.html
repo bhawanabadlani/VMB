@@ -14,47 +14,54 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 <body>  
-    
-    <div class="menu-bar">
-        <ul>
-            <li class='active'><i class="fa fa-home"></i><a href="#">Home</a></i>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="/mission">Mission</a></li>
-                        <li><a href="/vision">Vision</a></li>
-                        <li><a href="/objectives">Objectives</a></li>
-                        <li><a href="/aboutproject">About the project</a></li>
-                        <li><a href="/helpus">Help us</a></li>
+    <section id="nav-bar">
+        <div class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src= "{% static 'home/Images/jagannath logo.png' %}" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class='nav-item active'><i class="fa fa-home"></i><a class="nav-link" href="#">Home</a></i>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="/mission">Mission</a></li>
+                                <li><a href="/vision">Vision</a></li>
+                                <li><a href="/objectives">Objectives</a></li>
+                                <li><a href="/aboutproject">About the project</a></li>
+                                <li><a href="/helpus">Help us</a></li>
 
-                    </ul>
-                </div>
-            </li>
-            <li><i class="fa fa-registered"></i><a href="#">Register</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#">Male Registrations</a></li>
-                        <li><a href="#">Female Registrations</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><i class="fa fa-phone"></i><a href="#">Contact Us</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#">Information</a></li>
-                        <li><a href="#">Complaints</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><i class="fa fa-globe"></i><a href="#">Location</a>
-                <div class="sub-menu-1">
-                    <ul>
-                        <li><a href="#">Postal Address</a></li>
-                        <li><a href="#">On the Map</a></li>
-                    </ul>
-                </div>
-            </li>
-            <li><i class="fa fa-user"></i><a href="#">About Us</a></li>
-        </ul>
-    </div>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class='nav-item'><i class="fa fa-registered"></i><a class="nav-link" href="#">Register</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Male Registrations</a></li>
+                                <li><a href="#">Female Registrations</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class='nav-item'><i class="fa fa-phone"></i><a class="nav-link" href="#">Contact Us</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Information</a></li>
+                                <li><a href="#">Complaints</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class='nav-item'><i class="fa fa-globe"></i><a class="nav-link" href="#">Location</a>
+                        <div class="sub-menu-1">
+                            <ul>
+                                <li><a href="#">Postal Address</a></li>
+                                <li><a href="#">On the Map</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class='nav-item'><i class="fa fa-user"></i><a class="nav-link"href="#">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

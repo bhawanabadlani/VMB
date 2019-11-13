@@ -8,7 +8,8 @@ body
 {
     
     background-image: url('/static/home/Images/ISKCON2C.jpg');
-    
+    background-repeat:no-repeat;
+    background-size:contain;
     background-size:cover;
     
     
@@ -16,54 +17,65 @@ body
     font-family: sans-serif;
     font-weight: bold;
 }
-.menu-bar{
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 60px;   
+}
+.navbar{
     background: yellow;
     text-align: center;
 }
-.menu-bar ul
+.navbar ul
 {
     display: inline-flex;
     list-style: none;
 }
-.menu-bar ul li
+.navbar ul li
 {
     width: 200px;
-    margin: 15px; 
-    padding: 15px; 
+    margin: 5px; 
+    /* padding: 15px;  */
+ 
 }
-.menu-bar ul li a
+.navbar ul li a
 {
     text-decoration: none;
     color: black;
 }
-.active, .menu-bar ul li:hover
+.active, .navbar ul li:hover
 {
     background: rgb(238, 193, 47);
-    border-radius: 3px;
+    /* border-radius: 3px; */
 }
-.menu-bar .fa
-{
-    margin-right: 8px;
-}
+
 .sub-menu-1
 {
     display: none;
 }
-.menu-bar ul li:hover .sub-menu-1
+.navbar ul li:hover .sub-menu-1
 {
     display: block;
     position: absolute;
     background: yellow;
-    margin-top: 15px;
-    margin-left: -15px;
+    /* margin-top: 15px; */
+    /* margin-left: -15px; */
+
 }
-.menu-bar ul li:hover .sub-menu-1 ul
+.navbar ul li:hover .sub-menu-1 ul
 {   
     display: block;
-    margin: 10px;
-   
+    margin: 20px; 
+    
 }
-.menu-bar ul li:hover .sub-menu-1 ul li
+.navbar ul li:hover .sub-menu-1 ul li
 {
     width: 150px;
     padding: 10px;
@@ -72,11 +84,20 @@ body
     border-radius: 0; 
     text-align: left;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+.navbar ul li:hover .sub-menu-1 ul li:last-child
 {
     border-bottom: none;
 }
-.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+.navbar ul li:hover .sub-menu-1 ul li a:hover
 {
     color: red;
 }
+.nav-link
+{
+    color: black!important;
+    font-weight: 400px;
+    font-size: 1x;
+}
+/* .navbar .fa
+{
+} */
