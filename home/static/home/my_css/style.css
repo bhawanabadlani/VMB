@@ -9,10 +9,8 @@ body
     
     background-image: url('/static/home/Images/ISKCON2C.jpg');
     background-repeat:no-repeat;
-    background-size:contain;
     background-size:cover;
-    
-    
+    background-attachment: fixed;
     
     font-family: sans-serif;
     font-weight: bold;
