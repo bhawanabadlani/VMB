@@ -4,22 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
-body
-{
-    
-    background-image: url('/static/home/Images/ISKCON2C.jpg');
-    background-repeat:no-repeat;
+#backgroundimage {
+    background-image: url("/static/home/Images/ISKCON2C.jpg");
+    width: 98vw;
+    height: 120vh; 
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
     background-size:cover;
-    background-attachment: fixed;
-    
-    font-family: sans-serif;
-    font-weight: bold;
-}
+    background-attachment: fixed;    
+} 
+
 #nav-bar
 {
     position: sticky;
     top: 0;
     z-index: 10;
+
 
 }
 .navbar-brand img
